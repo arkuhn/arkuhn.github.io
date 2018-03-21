@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Website from './website'
+import SkiFree from './skifree'
+import Chat from './chat'
 import { Grid, Card, Icon } from 'semantic-ui-react'
 
 function Project(props){
@@ -47,12 +49,14 @@ class Projects extends Component {
                     <Project 
                         name='Instant Chat Messenger' 
                         meta='Oct 2017 - Dec 2017' 
+                        card={<Chat />} 
                         tags='Python, Flask, Mongo, Web Sockets' 
                         git="https://github.com/laura-king/meme-messenger"
                     />
                     <Project 
                         name='SkiFree iOS' 
                         meta='Feb 2017' 
+                        card={<SkiFree />} 
                         tags='iOS, Swift, SpriteKit'
                         git="https://github.com/arkuhn/SkiFree-iOS"
                     />
