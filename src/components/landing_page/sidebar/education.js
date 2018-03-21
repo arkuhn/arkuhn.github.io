@@ -12,8 +12,8 @@ class Education extends Component {
                             <List.Header >Rochester Institute of Technology</List.Header>
                             <List bulleted>
                                 <List.Item>Software Engineering B.S.</List.Item>
-                                <List.Item>Political Science Minor</List.Item>
-                                <List.Item>Computer Science Minor</List.Item>
+                                <List.Item>International Relations Minor</List.Item>
+                                <List.Item>AI Concentration</List.Item>
                             </List>
                         </List.Content>
                     </List.Item>
