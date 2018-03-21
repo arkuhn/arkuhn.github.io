@@ -24,7 +24,8 @@ class Toolbar extends Component {
                     <Menu size='massive' pointing secondary >
                         <Menu.Item as={Link} to="/" name='home' active={activeItem === 'home'} onClick={this.handleItemClick} position={'left'} />
                     
-                        <Dropdown item text='Contact' icon ='comments outline' position={'right'}>
+                        <Dropdown item text='Contact'  position={'right'}>
+                            
                             <Dropdown.Menu>
                                     <Dropdown.Item as='a' href='mailto:ark9719@rit.edu'>
                                         <Icon name='mail outline' size='small'/>
@@ -43,8 +44,8 @@ class Toolbar extends Component {
                         
                         <Menu.Item as={Link} to="projects" name='projects' active={activeItem === 'projects'} onClick={this.handleItemClick} icon='folder open outline' />
                     
-                        
-                    </Menu>
+                        <Menu.Item name='resume' icon='vcard outline' href='https://docs.google.com/document/d/1dgjw1xTez9zXtLvO0pdNvPt4Zs70sMflbs3RhUzaIWk/edit?usp=sharing' />
+                    </Menu> 
 
                     <Route exact path="/" component={Landing}/>
                     <Route path="/projects" component={Projects}/>

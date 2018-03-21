@@ -10,9 +10,14 @@ class Bio extends Component {
                 <Grid.Row>
                     <Grid.Column width= {1}/>
                     <Grid.Column width={4}>
-                        <Image src={process.env.PUBLIC_URL + 'img/profile.png'} floated='left'  size='medium' circular />
+                        
                         <List>
-                            <h2><List.Item content= 'Adam Kuhn' /></h2>
+                            <List.Item>
+                                <Image src={process.env.PUBLIC_URL + 'img/profile.png'}  size='medium' circular />
+                            </List.Item>
+                            <List.Item>
+                                <h1>Adam Kuhn</h1>
+                            </List.Item>
                             <List.Item icon='building outline' content='United Technologies - Lenel' />
                             <List.Item icon='marker' content='Rochester, NY' />
                             <List.Item icon='marker' content='Charlotte, NC' />
