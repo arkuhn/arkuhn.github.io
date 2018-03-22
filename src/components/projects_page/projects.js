@@ -44,7 +44,7 @@ class Projects extends Component {
                         meta='Jan 2018 - Present' 
                         card={<Website />} 
                         tags='React, SemanticUI, Express, JSX, JS' 
-                        git="https://github.com/arkuhn/Personal-Site"
+                        git="https://github.com/arkuhn/arkuhn.github.io/tree/develop"
                     />
                     <Project 
                         name='Instant Chat Messenger' 
