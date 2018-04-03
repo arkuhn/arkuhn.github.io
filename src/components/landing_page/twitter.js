@@ -6,19 +6,19 @@ class Twitter extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            tweetIDs: ['962335752809074688', '962353789071183872', '962362284055068672',
-        '962374863620116480', '962040159423352832', '958382166055952384']
+            tweetIDs: ['981203066899914752', '981196280935473152', '962362284055068672',
+        '', '976621159058944003', '958382166055952384']
         };
-        this.getTweetIDs = this.getTweetIDs.bind(this);
+        //this.getTweetIDs = this.getTweetIDs.bind(this);
     };
 
+    /*
     componentDidMount() {
-       // var ids = this.getTweetIDs();
-      //  ids.then((result)=> {
-       //     this.setState({ tweetIDs: result }, () => {
-       //     });
-        //});
-        
+      var ids = this.getTweetIDs();
+      ids.then((result)=> {
+         this.setState({ tweetIDs: result }, () => {
+        });
+      });
     };
 
     getTweetIDs() {
@@ -29,10 +29,12 @@ class Twitter extends Component {
             return tweetIds.result;
         })
     };
+    */
 
     render() {
         return (
             <Grid >
+                <script id="twitter-wjs" type="text/javascript" async defer src="//platform.twitter.com/widgets.js"></script>
                 <Grid.Column width={1}/>
                 
                     <Grid.Column width={5}>
