@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Website from './website'
 import SkiFree from './skifree'
 import Chat from './chat'
+import Classifier from './classifier'
 import { Grid, Card, Icon } from 'semantic-ui-react'
 
 function Project(props){
@@ -39,6 +40,13 @@ class Projects extends Component {
             <div> 
              <Grid centered columns='equal'>
                 <Grid.Column width={12}>
+                    <Project 
+                        name='Pneumonia X-ray Classifier' 
+                        meta='Mar 2018 - Present' 
+                        card={<Classifier />} 
+                        tags='Machine Learning, CNNs, Keras, Tensorflow, Classification' 
+                        git="https://github.com/arkuhn/PneumoniaClassifier"
+                    />
                     <Project 
                         name='Personal Website' 
                         meta='Jan 2018 - Present' 
