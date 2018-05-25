@@ -6,7 +6,7 @@ class Twitter extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            tweetIDs: ['981203066899914752', '981196280935473152', '962362284055068672',
+            tweetIDs: ['981203066899914752', '981196280935473152', '997295685736120320',
         '', '976621159058944003', '958382166055952384']
         };
         //this.getTweetIDs = this.getTweetIDs.bind(this);
