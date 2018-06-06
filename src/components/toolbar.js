@@ -44,7 +44,7 @@ class Toolbar extends Component {
                         
                         <Menu.Item as={Link} to="projects" name='projects' active={activeItem === 'projects'} onClick={this.handleItemClick} icon='folder open outline' />
                     
-                        <Menu.Item name='resume' icon='vcard outline' href='https://docs.google.com/document/d/1dgjw1xTez9zXtLvO0pdNvPt4Zs70sMflbs3RhUzaIWk/edit?usp=sharing' />
+                        <Menu.Item name='resume' icon='vcard outline' href='https://docs.google.com/document/d/1QVkfTZ_Hb3M0v2l0lObanq_3NdoLQqr7_vT0foHSbUM' />
                     </Menu> 
 
                     <Route exact path="/" component={Landing}/>
